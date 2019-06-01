@@ -28,7 +28,7 @@ body{
     margin: 0 auto;
 }
 
-h1 {
+#h123{
     height: 60px;
     color: white;
     float: left;
@@ -62,6 +62,7 @@ h1 {
     margin-right: 15px;
     position: relative;
     float: left;
+    overflow: hidden;
 }
 
 .ul1 {
@@ -73,6 +74,9 @@ h1 {
     height: 260px;
     position: absolute;
     top: 0;
+    left: 616px;
+}
+.ul1 li:nth-child(1){
     left: 0;
 }
 
@@ -116,6 +120,7 @@ h1 {
     float: left;
     background: white;
     border-radius: 5px;
+    transition: 0.5s;
 }
 .ul2 {
     width: 270px;
@@ -137,7 +142,6 @@ h1 {
     list-style: none;
     position: relative;
     margin-bottom: 10px;
-    overflow: hidden;
 }
 
 .ul2 p {
@@ -252,15 +256,6 @@ h1 {
     margin-bottom: 10px;
     position: relative;
 }
-.diary-left-one::before{
-    content: "";
-    width: 80px;
-    height: 2px;
-    background: #333333;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-}
 .diary-left-one li {
     float: left;
     list-style: none;
@@ -330,12 +325,12 @@ h1 {
 }
 .diary-ul li:nth-child(1){
     width: 526px;
-    height: 80px;
     padding: 0 20px 10px 20px;
     background: #f7f7f7;
-
 }
-
+.diary-ul .limax{
+    height: 80px;
+}
 .diary-ul li a {
     height: 32px;
     margin-bottom: 12px;
